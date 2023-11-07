@@ -4,7 +4,7 @@ rem "v 22.07.10.1"
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 set mydate=%date:~6,4%%date:~3,2%%date:~0,2%
 
-set destination=""%userprofile%\OneDrive\Documents\Backup\Logitech G HUB - LGHUB\""
+set destination="%userprofile%\OneDrive\Documents\Backup\Logitech G HUB - LGHUB\"
 set origin="%userprofile%\AppData\Local\LGHUB\"
 set fileName="LGHUB_backup.7z"
 cls 
@@ -15,3 +15,4 @@ cd "C:\Program Files\7-Zip\"
  
 del %destination%%fileName%
 ren %destination%temp.7z %fileName%
+
