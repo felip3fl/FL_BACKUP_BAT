@@ -4,7 +4,7 @@ rem "v 22.07.10.1"
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 set mydate=%date:~6,4%%date:~3,2%%date:~0,2%
 
-set destination="C:\Users\Felipe\OneDrive\Documents\Backup\Games\Cemu\"
+set destination="%userprofile%\OneDrive\Documents\Backup\Games\Cemu\"
 set origin="C:\Emulator\Cemu\mlc01\usr\save\"
 set fileName="cemu_backup_%mydate%_%mytime%.7z"
 cls 
