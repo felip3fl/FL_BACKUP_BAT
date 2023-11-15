@@ -4,8 +4,8 @@ rem "v 22.07.10.1"
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 set mydate=%date:~6,4%%date:~3,2%%date:~0,2%
 
-set destination="C:\Users\Felipe\OneDrive\Documents\Backup\Games\Zomboid\"
-set origin="C:\Users\Felipe\Zomboid\Saves\"
+set destination="%userprofile%\OneDrive\Documents\Backup\Games\Zomboid\"
+set origin="%userprofile%\Zomboid\Saves\"
 set fileName="zomboid_saves_backup.7z"
 cls 
 
@@ -18,7 +18,7 @@ ren %destination%temp.7z %fileName%
 
 
 
-set origin="C:\Users\Felipe\Zomboid\Server\"
+set origin="%userprofile%\Zomboid\Server\"
 set fileName="zomboid_server_backup.7z"
 cls 
 
