@@ -5,7 +5,7 @@ For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 set mydate=%date:~6,4%%date:~3,2%%date:~0,2%
 cd "C:\Program Files\7-Zip\"
 
-set destination="C:\Users\Felipe\OneDrive\Documents\Backup\Games\Yuzu\"
+set destination="%userprofile%\OneDrive\Documents\Backup\Games\Yuzu\"
 
 rem "Backup save-game"
 set origin="C:\Emulator\Yuzu\user\nand\user\save\0000000000000000\158E2E85002CE73DD8535DEC35E080EA\"
