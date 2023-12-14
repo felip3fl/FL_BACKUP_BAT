@@ -1,4 +1,4 @@
-<p align="center"><img src="" width="170" align="center"></p>
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Windows_Terminal_Logo.png" width="170" align="center"></p>
 <p align="center">FL BATCHFILE</p>
 <p align="center">
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-e23237">
