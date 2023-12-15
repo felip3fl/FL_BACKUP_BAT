@@ -18,14 +18,14 @@
 
 ## :hammer: Projetos
 
-- `Batch`: 06 - Projeto Final
-- `Power Shell`: 05 - DAA
+- `Batch`: Backup de softwares
+- `Power Shell`: Backup de jogos
 
 <BR>
 
 ## 📁 Acesso ao projeto
 
-Todo código fonte se encontra na pasta meat-app-starter-master
+Todo código fonte se encontra na pasta raiz
 
 <BR>
 
@@ -44,8 +44,8 @@ Use o ``Visual Studio Code`` para usar este projeto
 &nbsp;&nbsp;<img width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
 </p>
 
-- ``Angular``
-- ``Paradigma de orientação a objetos``
+- ``Terminal``
+- ``Powershell``
 
 <BR>
 
