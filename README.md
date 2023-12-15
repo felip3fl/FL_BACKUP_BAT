@@ -16,7 +16,7 @@
 
 <BR>
 
-## :hammer: Projetos
+## 🛠️ Projetos
 
 - `Batch`: Backup de softwares
 - `Power Shell`: Backup de jogos
