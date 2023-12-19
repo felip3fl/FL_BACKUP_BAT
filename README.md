@@ -2,7 +2,7 @@
 <p align="center">FL BATCHFILE</p>
 <p align="center">
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-c2c2c2">
-<img src="https://img.shields.io/badge/PROJECT%20VERSION-1.0.0-757575">
+<img src="https://img.shields.io/badge/PROJECT%20VERSION-1.0.0-222222">
 </p>
 
 <BR>
