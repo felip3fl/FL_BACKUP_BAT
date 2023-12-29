@@ -1,5 +1,5 @@
 rem "by Felip3FL"
-rem "v 22.07.10.1"
+rem "v 23.12.29.1"
 
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 set mydate=%date:~6,4%%date:~3,2%%date:~0,2%
