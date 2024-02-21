@@ -1,0 +1,1 @@
+xcopy %userprofile%\AppData\Roaming\MPC-BE\ %userprofile%\OneDrive\Documents\Backup\MPC\ /s /d /y
