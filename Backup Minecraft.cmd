@@ -4,7 +4,7 @@ rem For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c-%%a-%%b)
 For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a%%b)
 set mydate=%date:~6,4%%date:~3,2%%date:~0,2%
 
-set destination="C:\Users\Felipe\OneDrive\Documents\Backup\Games\Minecraft\"
+set destination="%userprofile%\OneDrive\Documents\Backup\Games\Minecraft\"
 set origin="C:\Games\MinecraftServer\terra-plana-e-quadrada\"
 set fileName="Minecraft_backup_terra_plana_e_quadrada_%mydate%_%mytime%.7z"
 cls 
